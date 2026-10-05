@@ -1,0 +1,1 @@
+PAGES[1]=`<h2>You have a letter</h2><p>It’s addressed to my Princess.</p><div id="env" onclick="openEnv()"><div class="bk"></div><div class="ltr"></div><div class="fr"></div><div class="fl"></div><div class="seal">❤️</div></div><button class="btn" id="ebtn" onclick="openEnv()">Click here to open envelope</button>`;

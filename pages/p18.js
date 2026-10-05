@@ -1,0 +1,1 @@
+PAGES[17]=`<h2>One Secret</h2><p>If I could rewrite the stars, I’d still choose you. In every life, in every world, it would always be you.</p><p class="sw" style="font-size:2.4rem">∞ 💞 ∞</p>`;

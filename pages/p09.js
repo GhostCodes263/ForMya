@@ -1,0 +1,1 @@
+PAGES[8]=`<h2>Reasons I Love You</h2><p id="rs" style="min-height:90px;font-style:italic"></p><button class="btn" onclick="reason()">Show me another ❤️</button>`;

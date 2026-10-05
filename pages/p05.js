@@ -1,0 +1,1 @@
+PAGES[4]=`<h2>My Beautiful Queen</h2><img class="ph" src="assets/images/mya1.jpg" alt=""><p>Look at that smile. It lights up my whole world.</p>`;

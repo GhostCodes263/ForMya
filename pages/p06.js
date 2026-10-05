@@ -1,0 +1,1 @@
+PAGES[5]=`<h2>Pure Magic</h2><div class="row"><img class="ph sm frame" src="assets/images/mya4.jpg" alt=""><img class="ph sm frame" src="assets/images/mya5.jpg" alt=""></div><p>Even in the little moments, you shine.</p>`;

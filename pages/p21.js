@@ -1,0 +1,1 @@
+PAGES[20]=`<h1 class="glow shine">She said YES!</h1><p>I love you more than words, more than the stars, more than anything.</p><h2 style="margin-top:20px">Prince Sean ❤️ Princess Mya</h2><button class="btn" onclick="fire();rain()">More love 🎆</button><button class="btn" style="animation:none" onclick="show(1)">Start again</button>`;

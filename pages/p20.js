@@ -1,0 +1,1 @@
+PAGES[19]=`<h1>Mya,</h1><h2 style="font-size:2.6rem">will you love me forever?</h2><div class="row"><button class="btn" onclick="show(20);fire()">YES 💖</button><button class="btn" id="no" style="animation:none;background:#ffffff33;color:#fff" ontouchstart="dodge(event)" onmouseover="dodge()">No</button></div>`;

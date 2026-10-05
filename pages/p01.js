@@ -1,0 +1,1 @@
+PAGES[0]=`<h2 id="i1" style="opacity:0;transition:2s">Somewhere in the world…</h2><h2 id="i2" style="opacity:0;transition:2s">there is a girl…</h2><h2 id="i3" style="opacity:0;transition:2s">who owns my heart.</h2><h1 id="i4" class="glow shine" style="opacity:0;transition:3s">Mya</h1>`;

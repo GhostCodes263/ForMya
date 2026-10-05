@@ -1,0 +1,1 @@
+PAGES[9]=`<h2>Love Meter</h2><p>Tap the heart to measure how much I love you</p><div id="bar"><div id="bf"></div></div><div class="big" onclick="meter()">💗</div><p id="mt" style="font-size:1.1rem">0%</p>`;

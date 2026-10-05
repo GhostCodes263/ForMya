@@ -1,0 +1,1 @@
+PAGES[2]=`<div id="paper"></div>`;

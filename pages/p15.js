@@ -1,0 +1,1 @@
+PAGES[14]=`<h2>Love Quiz</h2><p id="qq"></p><div id="qo"></div><p id="qa" style="min-height:40px"></p>`;

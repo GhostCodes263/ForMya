@@ -1,0 +1,1 @@
+PAGES[15]=`<h2>Make A Wish</h2><p>Close your eyes, think of us, then tap the sky.</p><div class="big" style="animation:float 3s infinite" onclick="wish()">🌠</div><p id="wt" style="min-height:60px"></p>`;

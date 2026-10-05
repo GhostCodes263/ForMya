@@ -1,0 +1,1 @@
+PAGES[16]=`<h2>Our Love Story</h2><p>Pick the day we started:</p><input type="date" onchange="days(this.value)" style="font:1.2rem var(--s);padding:10px;border-radius:12px;border:0;margin:10px"><div class="big" id="days" style="font-size:3.5rem;animation:none">—</div><p id="dl"></p>`;

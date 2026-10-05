@@ -1,0 +1,1 @@
+PAGES[3]=`<p>Welcome, my</p><h1 class="glow shine">Princess Mya</h1><p>Today, the Prince has something to say…</p><div class="big" onclick="mid(40);rain()">❤️</div><p style="font-size:1rem;opacity:.7">tap the heart</p>`;

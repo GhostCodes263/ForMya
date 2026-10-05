@@ -1,0 +1,1 @@
+PAGES[6]=`<h2>My Favourite View</h2><div class="row"><img class="ph sm frame" src="assets/images/mya2.jpg" alt=""><img class="ph sm frame" src="assets/images/mya6.jpg" alt=""></div><p>Every picture of you is my favourite.</p>`;
