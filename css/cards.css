@@ -1,0 +1,8 @@
+.card{width:140px;height:150px;position:relative}
+.card i{position:absolute;inset:0;border-radius:16px;display:flex;align-items:center;justify-content:center;padding:10px;font:normal 1.05rem/1.25 var(--s);backface-visibility:hidden;transition:transform .7s}
+.card .f{background:var(--w);color:var(--r);font-size:2.3rem}.card .b{background:var(--r);border:2px solid var(--g);transform:rotateY(180deg)}
+.card.flip .f{transform:rotateY(180deg)}.card.flip .b{transform:none}
+.mem{width:70px;height:70px}.mem i{font-size:1.9rem}
+#bar{width:min(80vw,320px);height:26px;border-radius:20px;background:#0004;overflow:hidden;margin:18px 0;border:1px solid #fff5}
+#bar div{height:100%;width:0;background:linear-gradient(90deg,#ff758f,#fff);transition:width .25s}
+.opt{display:block;width:min(86vw,340px);margin:8px auto;background:#ffffff1f;border:1px solid #fff6;color:#fff;border-radius:14px;padding:12px;font:1.15rem var(--s)}

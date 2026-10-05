@@ -1,0 +1,19 @@
+#env{position:relative;width:min(80vw,320px);height:min(54vw,215px);margin:50px 0 10px}
+#env .bk,#env .fr{position:absolute;inset:0;border-radius:6px}#env .bk{background:#c9182f}
+#env .fr{background:#e63a52;z-index:3;clip-path:polygon(0 0,50% 55%,100% 0,100% 100%,0 100%)}
+#env .fl{position:absolute;left:0;top:0;width:100%;height:55%;background:#a30f26;clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:transform .8s,z-index 0s .4s;z-index:4}
+#env.open .fl{transform:rotateX(180deg);z-index:1}
+#env .seal{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);z-index:5;font-size:2.4rem;transition:opacity .4s;animation:pulse 1.6s infinite}
+#env.open .seal{opacity:0}
+#env .ltr{position:absolute;left:8%;width:84%;height:80%;top:8%;background:var(--w);border-radius:4px;z-index:2;transition:transform 1s .7s}
+#env.open .ltr{transform:translateY(-70%)}
+#paper{background:#fffaf3 linear-gradient(#0000 31px,#e8c9c0 32px) 0 6px/100% 32px;color:#4a1420;width:min(90vw,430px);padding:26px 24px;border-radius:6px;box-shadow:0 14px 50px #000a;font-size:1.3rem;line-height:32px;text-align:left;max-height:72vh;overflow:auto;animation:pop 1s cubic-bezier(.2,1.4,.4,1)}
+@keyframes pop{from{transform:translateY(120%) rotate(-6deg) scale(.5)}}
+#paper b{font-family:var(--c);font-size:2rem;font-weight:400;color:var(--r)}
+#box{position:relative;width:170px;height:120px;margin:70px 0 20px}
+#box .base{position:absolute;bottom:0;width:100%;height:75px;background:linear-gradient(#a30f26,#7a0a1c);border-radius:0 0 14px 14px;z-index:2}
+#box .lid{position:absolute;top:10px;width:100%;height:45px;background:#c9182f;border-radius:14px 14px 4px 4px;transform-origin:0 100%;transition:transform 1s;z-index:3;border-bottom:3px solid var(--g)}
+#box.open .lid{transform:rotateX(-110deg) translateY(-8px)}
+#ring{position:absolute;left:50%;bottom:45px;transform:translateX(-50%) scale(0);font-size:3.4rem;z-index:1;transition:all 1.2s .8s;filter:drop-shadow(0 0 14px gold)}
+#box.open #ring{transform:translateX(-50%) translateY(-70px) scale(1.4);z-index:4}
+.sp{position:absolute;font-size:1.3rem;opacity:0}#box.open .sp{animation:tw 1.5s 1.6s infinite}@keyframes tw{50%{opacity:1;transform:scale(1.6)}}

@@ -1,0 +1,3 @@
+.ph{width:min(68vw,270px);aspect-ratio:3/4;border-radius:130px 130px 18px 18px;border:4px solid var(--g);object-fit:cover;box-shadow:0 0 40px #ff4d6d77;animation:float 5s ease-in-out infinite}
+.ph.sm{width:42vw;max-width:180px;border-radius:90px 90px 14px 14px}
+.frame{border-radius:18px;transform:rotate(-3deg)}.frame+.frame{transform:rotate(3deg);animation-delay:-2s}

@@ -1,0 +1,20 @@
+:root{--r:#b3122f;--d:#4d0414;--w:#fff7f5;--g:#e9b7a6;--s:'Cormorant Garamond',Georgia,serif;--c:'Great Vibes','Brush Script MT',cursive}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;background:radial-gradient(circle at 50% 25%,#9a0e2a,var(--d) 78%);font-family:var(--s);color:var(--w)}
+#fx{position:fixed;inset:0;pointer-events:none;z-index:1}
+#stage{position:fixed;inset:0;z-index:2}
+.pg{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px 22px 90px;overflow-y:auto}
+.pg.in{animation:in .9s ease}@keyframes in{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:none}}
+h1,h2{font-family:var(--c);font-weight:400;color:var(--g);line-height:1.1}
+h1{font-size:clamp(3rem,15vw,5.5rem)}h2{font-size:clamp(2.2rem,10vw,3.4rem);margin-bottom:14px}
+p{font-size:1.28rem;line-height:1.55;max-width:30rem;margin:8px 0}
+.btn{font:600 1.15rem var(--s);background:var(--w);color:var(--r);border:0;border-radius:40px;padding:13px 30px;margin:18px 6px 0;box-shadow:0 6px 24px #0006;animation:pulse 2s infinite}
+@keyframes pulse{50%{transform:scale(1.07)}}
+#nav{position:fixed;bottom:0;left:0;right:0;z-index:5;display:none;justify-content:space-between;align-items:center;padding:12px 18px calc(12px + env(safe-area-inset-bottom,0px))}
+#nav button{background:#ffffff1f;color:var(--w);border:1px solid #fff5;border-radius:30px;padding:10px 20px;font:1.05rem var(--s)}
+#cnt{font-size:.95rem;opacity:.7}
+#mute{position:fixed;top:10px;right:12px;z-index:6;background:#0004;border:0;color:#fff;border-radius:50%;width:40px;height:40px;font-size:1.1rem;display:none}
+.glow{text-shadow:0 0 18px #ff4d6d}.row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:12px}
+.big{font-size:5rem;animation:beat 1s infinite;user-select:none}
+@keyframes beat{15%{transform:scale(1.25)}30%{transform:scale(1)}45%{transform:scale(1.18)}}
+@keyframes float{50%{transform:translateY(-12px)}}
